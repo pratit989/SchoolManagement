@@ -1,54 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NAME:"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="160dp" />
-
-    <TextView
-        android:id="@+id/student_Name"
-        android:layout_width="134dp"
-        android:layout_height="23dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="193dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="81dp"
-        android:layout_height="25dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:text="SVV ID:"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="251dp" />
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/rollnoSVV"
-        android:layout_width="215dp"
-        android:layout_height="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="290dp" />
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="368dp" />
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/college_email"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rollnoSVV" />
 
     <TextView
-        android:id="@+id/semester"
-        android:layout_width="190dp"
-        android:layout_height="33dp"
+        android:id="@+id/college_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="453dp" />
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 </androidx.constraintlayout.widget.ConstraintLayout>

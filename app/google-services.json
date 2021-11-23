@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017559989120",
+    "project_id": "school-management-ccb5d",
+    "storage_bucket": "school-management-ccb5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017559989120:android:36c5588ab4694c94991f65",
+        "android_client_info": {
+          "package_name": "com.example.schoolmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017559989120-47b592863q5dcghklfdf30t08ogdbb4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB2A6JdunLKjUzcJB3NJNvvjc-_Jf-ngQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017559989120-47b592863q5dcghklfdf30t08ogdbb4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
