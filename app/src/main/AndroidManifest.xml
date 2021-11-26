@@ -23,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SubjectSelector" android:label="Subject Selection"/>
+        <activity android:name=".Attendance" android:label="Attendance"/>
+        <activity android:name=".TimeTable" android:label="TimeTable"/>
+        <activity android:name=".MarkSheet" android:label="MarkSheet"/>
         <activity android:name=".Profile" android:label="Profile"/>
         <activity android:name=".Login" android:label="Login"/>
         <activity android:name=".SignUp" android:label="Sign Up"/>

@@ -33,7 +33,7 @@ public class Profile extends AppCompatActivity {
             setContentView(R.layout.fragment_fourth);
             rollNo = findViewById(R.id.rollnoSVV);
             email = findViewById(R.id.college_email);
-            final DocumentReference docRef = db.collection("Users").document(Objects.requireNonNull(mAuth.getUid()));
+            final DocumentReference docRef = db.collection("Users").document(Objects.requireNonNull(mAuth.getCurrentUser().getUid()));
             docRef.addSnapshotListener((snapshot, e) -> {
                 Map<String, Object> userData;
                 if (e != null) {
@@ -58,7 +58,7 @@ public class Profile extends AppCompatActivity {
         }
     }
 
-    public boolean onOptionsItemSelected(MenuItem item){
+    public boolean onOptionsItemSelected(MenuItem item) {
         finish();
         return true;
     }

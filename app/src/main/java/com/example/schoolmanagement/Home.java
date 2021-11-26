@@ -38,4 +38,19 @@ public class Home extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void markSheet(View view) {
+        Intent intent = new Intent(Home.this, MarkSheet.class);
+        startActivity(intent);
+    }
+
+    public void timeTable(View view) {
+        Intent intent = new Intent(Home.this, TimeTable.class);
+        startActivity(intent);
+    }
+
+    public void subjectSelector(View view) {
+        Intent intent = new Intent(Home.this, SubjectSelector.class);
+        startActivity(intent);
+    }
+
 }
