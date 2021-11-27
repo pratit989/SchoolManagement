@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/activity_main.xml" value="0.15534420289855072" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/content_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_eight.xml" value="0.17028985507246377" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_fifth.xml" value="0.16530797101449277" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_first.xml" value="0.17028985507246377" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_fourth.xml" value="0.25" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_second.xml" value="0.33" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_six.xml" value="0.16530797101449277" />
+        <entry key="..\:/apps/SchoolManagement/app/src/main/res/layout/fragment_third.xml" value="0.16530797101449277" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19722222222222222" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.19722222222222222" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.125" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.11" />
-        <entry key="app/src/main/res/layout/fragment_eight.xml" value="0.24583333333333332" />
         <entry key="app/src/main/res/layout/fragment_fifth.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_fourth.xml" value="0.25" />
