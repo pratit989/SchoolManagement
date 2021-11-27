@@ -7,110 +7,104 @@
     tools:context=".Home">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/profileButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/profile_icon"
-        android:onClick="profile"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_action_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/profile_icon" />
+        android:src="@drawable/profile_icon"
+        android:contentDescription="@string/student_profile" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:labelFor="@id/imageButton"
-        android:text="Profile/ID Card"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        android:onClick="profile"/>
+        android:labelFor="@id/profileButton"
+        android:text="@string/profile_id_card"
+        app:layout_constraintEnd_toEndOf="@+id/profileButton"
+        app:layout_constraintStart_toStartOf="@+id/profileButton"
+        app:layout_constraintTop_toBottomOf="@+id/profileButton"/>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/attendance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:labelFor="@id/imageButton2"
-        android:text="Attendance"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        android:labelFor="@id/attendanceButton"
+        android:text="@string/attendance"
+        app:layout_constraintEnd_toEndOf="@+id/attendanceButton"
+        app:layout_constraintStart_toStartOf="@+id/attendanceButton"
+        app:layout_constraintTop_toBottomOf="@+id/attendanceButton" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/timetable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:labelFor="@id/imageButton3"
-        android:text="TimeTable"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
-        app:layout_constraintStart_toStartOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+        android:labelFor="@id/timeTableButton"
+        android:text="@string/timetable"
+        app:layout_constraintEnd_toEndOf="@+id/timeTableButton"
+        app:layout_constraintStart_toStartOf="@+id/timeTableButton"
+        app:layout_constraintTop_toBottomOf="@+id/timeTableButton" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/markSheet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:labelFor="@id/imageButton4"
-        android:text="Marksheet"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-        app:layout_constraintStart_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+        android:labelFor="@id/markSheetButton"
+        android:text="@string/MarkSheet"
+        app:layout_constraintEnd_toEndOf="@+id/markSheetButton"
+        app:layout_constraintStart_toStartOf="@+id/markSheetButton"
+        app:layout_constraintTop_toBottomOf="@+id/markSheetButton" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/attendanceButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:onClick="subjectSelector"
         android:scaleType="fitXY"
-        android:src="@android:drawable/ic_menu_my_calendar"
+        android:src="@drawable/attendance_icon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/attendance_icon" />
+        android:contentDescription="@string/student_attendance" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/timeTableButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:onClick="timeTable"
         android:scaleType="fitXY"
-        android:src="@android:drawable/ic_dialog_dialer"
+        android:src="@drawable/timetable_icons"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:src="@drawable/timetable_icons" />
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        android:contentDescription="@string/student_timetable" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/markSheetButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="32dp"
-        android:onClick="markSheet"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_marksheet"
+        android:src="@drawable/report"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:src="@drawable/report" />
+        app:layout_constraintTop_toBottomOf="@+id/attendance"
+        android:contentDescription="@string/student_markSheet" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
-        android:onClick="logOut"
-        android:text="Logout"
+        android:text="@string/logout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
